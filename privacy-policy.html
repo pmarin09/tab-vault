@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Tab Vault — Privacy Policy</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+  body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+         max-width: 640px; margin: 60px auto; padding: 0 20px; color: #14232f; line-height: 1.6; }
+  h1 { font-size: 22px; }
+  h2 { font-size: 16px; margin-top: 32px; }
+  .updated { color: #8a9aa7; font-size: 13px; }
+</style>
+</head>
+<body>
+
+<h1>Tab Vault — Privacy Policy</h1>
+<p class="updated">Last updated: September 2026</p>
+
+<p>Tab Vault does not collect, transmit, or have access to any of your data. This page explains exactly what the extension does with the information it touches.</p>
+
+<h2>What Tab Vault stores</h2>
+<p>Tab Vault reads the titles, URLs, and pinned state of your open browser tabs and saves them to <code>chrome.storage.local</code> — storage that belongs to your browser profile, on your own device. This is the entire dataset the extension works with.</p>
+
+<h2>Where that data goes</h2>
+<p>Nowhere. Tab Vault makes no network requests of any kind. There is no server, no analytics, no third-party SDK, and no account to sign in to. You can verify this yourself: open Chrome DevTools, go to the Network tab, and use the extension. Nothing will appear there.</p>
+
+<h2>Page content</h2>
+<p>Tab Vault cannot read the content of any page you visit. It only ever sees a tab's title, URL, and whether it's pinned — the same information visible in your browser's own tab strip.</p>
+
+<h2>Site icons</h2>
+<p>Icons shown next to saved tabs are read from Chrome's own local favicon cache via the browser's built-in <code>_favicon</code> API. This does not involve a network request to Tab Vault, to a third party, or to Google.</p>
+
+<h2>Exporting your data</h2>
+<p>You can export your full snapshot history to a JSON file at any time, using the Export button. That file is written directly to your Downloads folder by your browser. Tab Vault has no part in transmitting it anywhere, because it doesn't have the ability to.</p>
+
+<h2>Changes to this policy</h2>
+<p>If this policy ever changes — for instance, if a future paid feature like cloud sync is added — this page will be updated first, and the new version will describe exactly what data that feature sends and where.</p>
+
+<h2>Contact</h2>
+<p>Questions about this policy can be sent to the developer contact address listed on the Chrome Web Store listing.</p>
+
+</body>
+</html>
